@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&display=swap');
 
 *{
     scroll-behavior: smooth;
@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: 'Palanquin Dark';
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5;
     background-color: #dadada;
     margin: 0;
     padding: 0;
@@ -49,7 +50,7 @@ body{
 }
 
 .header_text{
-    font-family: 'Palanquin Dark';
+    font-family: 'Julius Sans One', sans-serif;
     width: 98%;
     position: absolute;
     top: 50%;
@@ -157,9 +158,36 @@ body{
     font-size: 20px;
     margin: 20px;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     border-radius: 10px;
     color: #4DA8DA;
+}
+
+.next{
+    width: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #c92424;
+    background-color: #feffb9b2;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.next a:visited{
+    width: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #feffb9b2;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .footer{
