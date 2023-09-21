@@ -90,7 +90,7 @@ td:not(span){
     text-align: justify;
 }
 
-h3{
+.lang-more h3{
     text-align: center;
     color: #ffffff;
     letter-spacing: 2px;
@@ -101,19 +101,31 @@ h3{
 
 .youtube{
     position: relative;
-    left: 460px;
+    left: 200px;
 }
 
-.linkB{
+.lang-more-2{
     margin-bottom: 50px;
 }
 
-.linkB a{
+.lang-more-2 a{
     position: relative;
     text-decoration: none;
+    color: #4d5761;
     background-color: aliceblue;
     border-radius: 15px;
     padding: 5px 20px;
     top: 40px;
-    left: 45%;
+    left: 35%;
+}
+
+.lang-more-2 a:visited{
+    position: relative;
+    text-decoration: none;
+    color: #4d5761;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 5px 20px;
+    top: 40px;
+    left: 35%;
 }
