@@ -107,8 +107,30 @@ td:not(span){
     text-align: justify;
 }
 
+#lang-use{
+    text-align: center;
+    color: #307499;
+    letter-spacing: 5px;
+}
+
 .lang-uses{
-    color: #FFFFFF;
+    color: #3f96c4;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lang-uses-1,.lang-uses-2,.lang-uses-3{
+    width: 400px;
+    background-color: rgb(194, 237, 246);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.lang-example{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
 }
 
 .lang-more h3{
