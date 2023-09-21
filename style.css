@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+body{
+    font-family: 'Palanquin Dark';
+    background-color: rgb(39, 42, 49);;
+}
+
+.navbar{
+    color: rgb(198, 198, 199);
+    background-color: #4d5761;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.navbar img{
+    width: 45px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+.navbar a{
+    padding-bottom: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+h1{
+    padding: 10px 0 0 30px;
+}
+.python{
+    padding: 20px;
+    color:#bbdbfe;
+    display: flex;
+}
+
+img[src*='python.png']{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 242, 242);
+    padding: 15px 10px 10px 15px;
+    border-radius: 30%;
+    margin: 80px 50px 50px 50px;
+}
+
+.python p{
+    width: 1000px;
+    text-align: justify;
+    background-color: #315881;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div:not(.navbar){
+    top: 40px;
+}
+
+table{
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+td{
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 15px 20px;
+}
+
+th{
+    color: #FFFFFF;
+    background-color: #4DA8DA;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+span{
+    color: #0056B3;
+    text-align: center;
+    display: block;
+}
+
+td:not(span){
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: underline #78ceff;
+    text-underline-offset: 10px;
+}
+
+.youtube{
+    position: relative;
+    left: 460px;
+}
+
+.linkB{
+    margin-bottom: 50px;
+}
+
+.linkB a{
+    position: relative;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 5px 20px;
+    top: 40px;
+    left: 45%;
+}
