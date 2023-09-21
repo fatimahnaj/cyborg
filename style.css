@@ -33,13 +33,13 @@ body{
 h1{
     padding: 10px 0 0 30px;
 }
-.intro{
+.lang-intro{
     padding: 20px;
     color:#bbdbfe;
     display: flex;
 }
 
-img[src*='python.png']{
+.lang-intro img{
     width: 100px;
     height: 100px;
     background-color: rgb(242, 242, 242);
@@ -48,7 +48,7 @@ img[src*='python.png']{
     margin: 80px 50px 50px 50px;
 }
 
-.intro p{
+.lang-intro p{
     width: 1000px;
     text-align: justify;
     background-color: #315881;
