@@ -34,9 +34,6 @@ body{
     text-decoration: none;
 }
 
-h1{
-    padding: 10px 0 0 30px;
-}
 .lang-intro{
     padding: 20px;
     color:#bbdbfe;
@@ -52,8 +49,16 @@ h1{
     margin: 80px 50px 50px 50px;
 }
 
+.lang-intro h1{
+    letter-spacing: 5px;
+    position: relative;
+    top: 15px;
+    left: 100px;
+}
+
 .lang-intro p{
-    width: 1000px;
+    width: 1100px;
+    top: 20px;
     text-align: justify;
     background-color: #315881;
     padding: 20px;
@@ -91,6 +96,7 @@ td{
     background-color: #FFFFFF;
     margin: 20px;
     padding: 15px 20px;
+    width: 50%;
 }
 
 th{
