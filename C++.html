@@ -2,28 +2,22 @@
 <html>
 
 <head>
-    <title>Cyborg_C++</title>
-    <link rel="stylesheet" href="C++.css">
+    <title>Cyborg</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#pros&cons">Pros & Cons</a></li>
-            <li><a href="#function">Uses</a></li>
-            <li><a href="#example">Example</a></li>
-            <li><a href="#tutorial">Tutorials</a></li>
-        </ul>
+        <div class="navbar">
+            <img src="img/logo.png">
+            <a href="index.html">Cyborg</a>
+        </div>
     </header>
 
-    <div class="logo" id="introduction">
-        <img src="img/C++_Logo.png" width="200px" height="200px" class="logo-image" />
-        <b class="name">C++</b>
-    </div>
-
-    <div class="introduction">
-        <h2>Introduction</h2>
+    <div class="lang-intro" id="introduction">
+        <img src="img/C++_Logo.png" width="200px" height="200px" class="logo-image">
+        <div class="lang-intro-desc">
+        <h1>C++</h1>
         <p id="pros&cons">C++ is a powerful and versatile programming language known for its performance and
             flexibility.
             It emerged as an extension of the C programming language and has since become a fundamental tool in software
@@ -31,105 +25,114 @@
             C++ is widely used in various domains, including game development, system programming, and embedded systems,
             owing to its ability to combine low-level memory control with high-level abstractions.
             Its influence on the development of modern software and its role in shaping many other programming languages
-            make C++ an essential language for programmers seeking to build efficient and robust applications.
-        </p>
+            make C++ an essential language for programmers seeking to build efficient and robust applications.</p>
+        </div>
     </div>
 
+    <div>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#pros&cons">Pros & Cons</a></li>
+            <li><a href="#function">Uses</a></li>
+            <li><a href="#example">Example</a></li>
+            <li><a href="#tutorial">Tutorials</a></li>
+        </ul>
+    </div>
 
-    <table style="border-collapse: collapse" border="1" align="left" class="pros-and-cons">
-        <h2 id="pros-and-cons">Pros & Cons</h2>
+<div class="pros-cons">
+    <table class="pros-and-cons">
         <tr>
             <th>PROS</th>
             <th>CONS</th>
         </tr>
         <tr>
-            <td><b>Performance</b>: C++ is renowned for its efficiency and speed.
+            <td><span>Performance</span>: C++ is renowned for its efficiency and speed.
                 It allows developers to have fine-grained control over memory management and hardware,
                 making it suitable for resource-intensive applications like games, real-time simulations, and
                 system-level programming.
             </td>
-            <td><b>Complexity:</b> C++ can be quite complex, especially for beginners. Its syntax and features,
+            <td><span>Complexity:</span> C++ can be quite complex, especially for beginners. Its syntax and features,
                 including templates and multiple inheritance,
                 can be challenging to grasp, leading to potential errors and longer development times.
             </td>
         </tr>
         <tr>
-            <td><b>Versatility:</b> C++ is a multi-paradigm language, supporting both procedural and object-oriented
+            <td><span>Versatility:</span> C++ is a multi-paradigm language, supporting both procedural and object-oriented
                 programming,
                 which makes it adaptable to a wide range of application domains.
                 It can be used for anything from desktop applications to embedded systems and high-performance servers.
             </td>
-            <td><b>Memory Managemnt:</b> While C++ offers fine-grained control over memory,
+            <td><span>Memory Managemnt:</span> While C++ offers fine-grained control over memory,
                 this also means that developers are responsible for managing memory manually. This can lead to memory
                 leaks,
                 segmentation faults, and other memory-related issues if not handled properly.
             </td>
         </tr>
         <tr>
-            <td><b>Rich Standard Library:</b> C++ includes a robust standard library that provides a wealth of
+            <td><span>Rich Standard Library:</span> C++ includes a robust standard library that provides a wealth of
                 functionality,
                 including data structures, algorithms, and I/O operations. This library simplifies and accelerates
                 development tasks.
             </td>
-            <td><b>Safety Concerns:</b> C++ allows for low-level operations that can be error-prone, such as pointer
+            <td><span>Safety Concerns:</span> C++ allows for low-level operations that can be error-prone, such as pointer
                 arithmetic.
                 This can lead to security vulnerabilities like buffer overflows if not managed carefully.
             </td>
         </tr>
         <tr>
-            <td><b>Compatibility:</b> C++ can interoperate with C code seamlessly,
+            <td><span>Compatibility:</span> C++ can interoperate with C code seamlessly,
                 allowing developers to leverage existing C libraries and codebases. This makes it easier to integrate
                 C++ into existing projects or transition from C to C++.
             </td>
-            <td><b>Verbose Syntax:</b> C++ code can be verbose compared to some modern programming languages,
+            <td><span>Verbose Syntax:</span> C++ code can be verbose compared to some modern programming languages,
                 which can make code harder to read and maintain.
             </td>
         </tr>
         <tr>
-            <td><b>Strong Community and Resources:</b> C++ has a large and active community of developers, which means
+            <td><span>Strong Community and Resources:</span> C++ has a large and active community of developers, which means
                 there are abundant resources,
                 tutorials, and libraries available for learning and development.
             </td>
-            <td><b>Slower Development:</b> Because of its complexity and need for careful memory management,
+            <td><span>Slower Development:</span> Because of its complexity and need for careful memory management,
                 C++ development can be slower compared to languages with automatic memory management like Python or
                 Java.
             </td>
         </tr>
         <tr>
-            <td><b>Abstraction and Encapsulation:</b> C++ supports object-oriented programming,
+            <td><span>Abstraction and Encapsulation:</span> C++ supports object-oriented programming,
                 enabling developers to create well-structured and modular code through concepts like classes and
                 objects.
                 This promotes code reusability and maintainability.
             </td>
-            <td><b>Platform-Dependent Code:</b> Code written in C++ may not always be easily portable across different
+            <td><span>Platform-Dependent Code:</span> Code written in C++ may not always be easily portable across different
                 platforms or compilers,
                 which can be a concern for projects requiring cross-platform compatibility.
             </td>
         </tr>
         <tr>
-            <td><b>Low-Level Control:</b> C++ provides direct access to memory and hardware,
+            <td><span>Low-Level Control:</span> C++ provides direct access to memory and hardware,
                 allowing developers to optimise code for specific performance requirements, making it suitable for
                 systems programming.
             </td>
-            <td><b>Limited Standard Library for Certain Tasks:</b> While C++ has a rich standard library,
+            <td><span>Limited Standard Library for Certain Tasks:</span> While C++ has a rich standard library,
                 it may lack certain modern features and abstractions found in languages designed for specific domains
                 (e.g., web development, data analysis).
             </td>
         </tr>
         <tr>
-            <td><b>Portability:</b> C++ compilers are available on various platforms,
+            <td><span>Portability:</span> C++ compilers are available on various platforms,
                 ensuring that code written in C++ can be executed on different operating systems without major
                 modifications.
             </td>
-            <td><b>Difficulty in Learning:</b> Learning C++ can be challenging, especially for those new to programming.
+            <td><span>Difficulty in Learning:</span> Learning C++ can be challenging, especially for those new to programming.
                 Its complexity and the need to understand memory management concepts can be intimidating for beginners.
             </td>
         </tr>
         <tr>
-            <td><b id="function">Strong Typing:</b> C++ enforces strong typing,
+            <td><span id="function">Strong Typing:</span> C++ enforces strong typing,
                 reducing the chances of runtime errors and enhancing code reliability.
             </td>
-            <td><b>Lack of Built-in Concurrency Support:</b> C++ lacks built-in support for high-level concurrency
+            <td><span>Lack of Built-in Concurrency Support:</span> C++ lacks built-in support for high-level concurrency
                 constructs
                 like those found in languages such as Python and Java. Concurrency management often requires the use of
                 external libraries or manual threading,
@@ -137,9 +140,11 @@
             </td>
         </tr>
     </table>
+</div>
 
-    <div class="use">
-        <h2>Uses</h2>
+    <div class="lang-uses">
+        <h1>C++ Uses</h1>
+
         <h3>1. Operating Systems</h3>
         <p>C++ offers great performance when it comes to handling large amounts of data efficiently while still
             providing a great user experience.
@@ -180,9 +185,9 @@
         <img src="img/output addvalue.png" width="60%" height="60%" />
     </div>
 
-    <div class="tutorial">
-        <h2 id="tutorial">Tutorials</h2>
-        <h3>Youtube Video:</h3>
+    <div class="lang-more" id="tutorial">
+        <div class="lang-more-child">
+        <h3>Begin your journey with C++ !</h3>
         <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&si=lMTqm9FEpTVgZVMh"
             target="_blank">C++ Full Course</a>
         <br><br><a href="https://youtube.com/playlist?list=PLBlnK6fEyqRh6isJ01MBnbNpV3ZsktSyS&si=LTZ_HqT5-RKyUMlY"
