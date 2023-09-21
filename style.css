@@ -33,7 +33,7 @@ body{
 h1{
     padding: 10px 0 0 30px;
 }
-.python{
+.intro{
     padding: 20px;
     color:#bbdbfe;
     display: flex;
@@ -48,7 +48,7 @@ img[src*='python.png']{
     margin: 80px 50px 50px 50px;
 }
 
-.python p{
+.intro p{
     width: 1000px;
     text-align: justify;
     background-color: #315881;
