@@ -112,7 +112,18 @@ td:not(span){
     position: relative;
     text-decoration: none;
     color: #4d5761;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px 20px;
+    top: 40px;
+    left: 35%;
+}
+
+.lang-more-2 a:hover{
+    position: relative;
+    text-decoration: none;
+    color: #4d5761;
+    background-color: rgb(207, 207, 207);
     border-radius: 15px;
     padding: 5px 20px;
     top: 40px;
@@ -120,12 +131,5 @@ td:not(span){
 }
 
 .lang-more-2 a:visited{
-    position: relative;
     text-decoration: none;
-    color: #4d5761;
-    background-color: aliceblue;
-    border-radius: 15px;
-    padding: 5px 20px;
-    top: 40px;
-    left: 35%;
 }
