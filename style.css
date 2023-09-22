@@ -389,7 +389,7 @@ section{
     padding: 50px 5px;
 }
 
-.page3 body {
+.page3{
     box-sizing: border-box;
     margin: 0;
 }
@@ -420,6 +420,11 @@ section{
     content: normal;
     display: table;
     clear: both;
+}
+
+.page3{
+    background-color: #131a21;
+    font-family: Josefin Sans;
 }
 
 .page3 h4 {
@@ -458,6 +463,10 @@ section{
     padding: 40px;
     clear: both;
     color: rgb(216, 210, 210);
+}
+
+.way a{
+    text-decoration: none;
 }
 
 .page3 h3 {
@@ -576,10 +585,6 @@ section{
     display: inline-block;
     width: 200px;
     text-decoration: underline;
-}
-
-div:not(.navbar){
-    top: 40px;
 }
 
 table{
