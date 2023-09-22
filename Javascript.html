@@ -15,12 +15,16 @@
             <a href="index.html">Cyborg</a>
         </div>        
     </header>
-                    <!--<div class="logo" id="introduction">
-                        <img src="C++_Logo.png" width="200px" height="200px" class="logo-image" />
-                        <b class="name">C++</b>
-                    </div>-->
-
-    <div class="lang-intro">
+                    <div class="slidebar">
+                        <ul>
+                            <li style="text-align: left;" style="padding-top: 20px;"><a href="#introduction">Introduction</a></li>
+                            <li style="text-align: left;" style="padding-top: 20px;"><a href="#pros&cons">Pros & Cons</a></li>
+                            <li style="text-align: left;" style="padding-top: 20px;"><a href="#function">Uses</a></li>
+                            <li style="text-align: left;" style="padding-top: 20px;"><a href="#example">Example</a></li>
+                            <li style="text-align: left;" style="padding-top: 20px;"><a href="#tutorial">Tutorials</a></li>
+                        </ul>
+                    </div>
+    <div class="lang-intro" id="introduction">
          <div class="lang-intro-img"><img src="img/JavaScript.png" width="200px" height="200px" class="logo-image"></div>
         <div class="lang-intro-desc">
             <h1>Javascript</h1>
@@ -28,7 +32,7 @@
         </div>
     </div>
 
-<div class="pros-cons">     
+<div class="pros-cons" id="pros&cons">     
     <table>
             <tr>
                 <th>Pros</th>
@@ -47,7 +51,7 @@
                 <td><span>Asynchronous Programming Complexity:</span> Managing asynchronous code using callbacks or promises can lead to callback hell or complex promise chains, making code harder to read and maintain.</td>
             </tr>
             <tr>
-                <td><span>Rich Ecosystem:</span> There's a vast ecosystem of libraries and frameworks like React, Angular, and Vue.js that streamline development and add powerful features.</td>
+                <td><span id="function">Rich Ecosystem:</span> There's a vast ecosystem of libraries and frameworks like React, Angular, and Vue.js that streamline development and add powerful features.</td>
                 <td><span>Global Scope:</span> Variables declared without proper scoping can lead to unintentional global variables, increasing the risk of naming conflicts and bugs.</td>
             </tr>
             <tr>
@@ -74,7 +78,7 @@
         </div>
 </div>
 
-<div class="lang-example">
+<div class="lang-example" id="example">
     <h2>Examples</h2>
     <h3>1. Hello World!</h3>
     <img src="img/javascript source code.png" width="60%" height="60%">
@@ -86,7 +90,7 @@
     <img src="img/javascript number.png" width="60%" height="60%">
 </div>
 
-<div class="lang-more">
+<div class="lang-more" id="tutorial">
     <div class="lang-more-child">
     <h3>Explore more about Javascript!</h3> <!-- Make it into videos and 2x2 window views-->
         <iframe width="560" height="315" src="https://youtube.com/embed/DHjqpvDnNGE?si=Sh2iORb5mI4WOo3W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube"></iframe>

@@ -377,17 +377,23 @@ section{
     letter-spacing: 3px;
     text-decoration: none;
     font-size: 20px;
+    transition: all .55s ease;
+}
+
+.next a:hover{
+    background-color: rgba(255, 255, 255, 0.695);
 }
 
 .footer-home{
     background-color: #4d5761;
     margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .footer-home img{
-    width: 10%;
+    width: 5%;
     aspect-ratio: 0.8;
     object-fit: contain;
     padding: 50px 5px;
@@ -486,7 +492,8 @@ section{
 
 .answer {
     position: relative;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
     margin: 20px;
     display: inline-block;
     width: 300px;
@@ -495,6 +502,7 @@ section{
 .answer:hover {
     background: rgb(183, 179, 179);
     color: white;
+    transition: all .55s ease;
 }
 
 .footerlast {
@@ -502,10 +510,13 @@ section{
     background-color: #000080;
     padding-bottom: 10px;
     color: aliceblue;
+    text-align: center;
 }
 
 .footerlast a {
     font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
 }
 
 .footerlast h3 {
@@ -646,7 +657,7 @@ td:not(span){
 }
 
 .lang-uses{
-    color: #3f96c4;
+    color: #dae3e9;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -654,7 +665,7 @@ td:not(span){
 
 .lang-uses-1,.lang-uses-2,.lang-uses-3{
     width: 400px;
-    background-color: rgb(194, 237, 246);
+    background-color: #315881;
     border-radius: 10px;
     padding: 10px 20px;
 }
