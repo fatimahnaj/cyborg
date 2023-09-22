@@ -615,6 +615,10 @@ section{
     transition: all .55s ease;
 }
 
+.slidebar li{
+    list-style: square;
+}
+
 .slidebar:hover{
     left: -10px;
 }
