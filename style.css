@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&display=swap');
 
+*{
+    scroll-behavior: smooth;
+}
+
 #page1 {
     padding: 0;
     margin: 0;
@@ -586,6 +590,22 @@ section{
     display: inline-block;
     width: 200px;
     text-decoration: underline;
+}
+
+.slidebar{
+    background-color: #97bee7;
+    position: fixed;
+    top: 100px;
+    left: -120px;
+    z-index: 100;
+    border-radius: 0 15px 15px 0;
+    padding-right:20px ;
+    font-size: 13px;
+    transition: all .55s ease;
+}
+
+.slidebar:hover{
+    left: -10px;
 }
 
 table{
