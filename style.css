@@ -225,7 +225,6 @@ section{
     }
 }
 
- 
 .page2 {
     scroll-behavior: smooth;
 }
@@ -522,6 +521,11 @@ section{
     color: #FFFFFF;
     font-size: 25px;
     text-decoration: none;
+}
+
+.lang{
+    background-color: #2b3042;
+    font-family: 'Palanquin Dark';
 }
 
 .lang-intro{
