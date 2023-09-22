@@ -408,7 +408,7 @@ section{
 
 .column {
     float: left;
-    width: 35%;
+    width: 25%;
     padding: 20px;
     justify-content: space-around;
     align-items: center;
