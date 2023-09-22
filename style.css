@@ -409,7 +409,7 @@ section{
 .column {
     float: left;
     width: 25%;
-    padding: 20px;
+    padding: 40px;
     justify-content: space-around;
     align-items: center;
     display: flex;
